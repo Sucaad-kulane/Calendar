@@ -56,6 +56,7 @@ $(document).ready(function(){
     $("#hour-3.description").val(localStorage.getItem("hour-15"))
     $("#hour-4.description").val(localStorage.getItem("hour-16"))
     $("#hour-5.description").val(localStorage.getItem("hour-17"))
+    $("#hour-5.description").val(localStorage.getItem("hour-17"))
 
 
     $("currentDay").text(moment().format("DDDD, MMMM, Do"))
